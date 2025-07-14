@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tagesablauf</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f0f4f8;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 80%;
+      max-width: 400px;
+    }
+
+    .lang-button {
+      padding: 15px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      color: white;
+      background: linear-gradient(to right, #2196F3, #21CBF3);
+      transition: background 0.3s;
+    }
+
+    .lang-button:hover {
+      background: linear-gradient(to right, #0b7dda, #1b9dcf);
+    }
+
+    @media (max-height: 600px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      .lang-button {
+        padding: 12px;
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Bitte wählen Sie Ihre Sprache</h1>
+
+  <div class="button-container">
+    <button class="lang-button" onclick="location.href='https://baseresourcesstack-documentsbucket9ec9deb9-qmmkdw8bfxhu.s3.eu-central-1.amazonaws.com/public/videos/Poster_Videos/PCI_Tagesablauf_Short.mp4'">Deutsch</button>
+    <button class="lang-button" onclick="location.href='https://baseresourcesstack-documentsbucket9ec9deb9-qmmkdw8bfxhu.s3.eu-central-1.amazonaws.com/public/videos/Poster_Videos/Tagesablauf_Englisch.mov'">English</button>
+    <button class="lang-button" onclick="location.href='https://baseresourcesstack-documentsbucket9ec9deb9-qmmkdw8bfxhu.s3.eu-central-1.amazonaws.com/public/videos/Poster_Videos/Tagesablauf_spanisch.mov'">Español</button>
+    <button class="lang-button" onclick="location.href='https://baseresourcesstack-documentsbucket9ec9deb9-qmmkdw8bfxhu.s3.eu-central-1.amazonaws.com/public/videos/Poster_Videos/tagesablauf_franzo%CC%88sisch.mov'">Français</button>
+    <button class="lang-button" onclick="location.href='https://baseresourcesstack-documentsbucket9ec9deb9-qmmkdw8bfxhu.s3.eu-central-1.amazonaws.com/public/videos/Poster_Videos/tagesablauf_arabisch.mov'">العربية</button>
+    <button class="lang-button" onclick="location.href='https://baseresourcesstack-documentsbucket9ec9deb9-qmmkdw8bfxhu.s3.eu-central-1.amazonaws.com/public/videos/Poster_Videos/Tagesablauf_Dari.mov'">دری / فارسی</button>
+    <button class="lang-button" onclick="location.href='https://baseresourcesstack-documentsbucket9ec9deb9-qmmkdw8bfxhu.s3.eu-central-1.amazonaws.com/public/videos/Poster_Videos/Tagesablauf_russisch.mov'">Русский</button>
+    <button class="lang-button" onclick="location.href='https://baseresourcesstack-documentsbucket9ec9deb9-qmmkdw8bfxhu.s3.eu-central-1.amazonaws.com/public/videos/Poster_Videos/tagesablauf_tu%CC%88rkisch.mov'">Türkçe</button>
+  </div>
+</body>
+</html>
